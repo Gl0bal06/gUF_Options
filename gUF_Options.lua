@@ -443,10 +443,27 @@ gUF.options = {
 				},
 			},
 		},
+		modules = {
+			name = L["Modules"],
+			type = "group",
+			order = 2,
+			childGroups = "tab",
+			args = {
+				castbar = {
+					name = L["CastBar"],
+					type = "group",
+					order = 1,
+					--childGroups = "tab",
+					args = {
+						--more options go here
+					},
+				},
+			},
+		},
 		focus = {
 			name = L["Focus"],
 			type = "group",
-			order = 2,
+			order = 3,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -455,7 +472,7 @@ gUF.options = {
 		focustarget = {
 			name = L["Focus' Target"],
 			type = "group",
-			order = 3,
+			order = 4,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -464,7 +481,7 @@ gUF.options = {
 		party = {
 			name = L["Party"],
 			type = "group",
-			order = 4,
+			order = 5,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -473,7 +490,7 @@ gUF.options = {
 		partypet = {
 			name = L["Party Pets"],
 			type = "group",
-			order = 5,
+			order = 6,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -482,7 +499,7 @@ gUF.options = {
 		partytarget = {
 			name = L["Party Targets"],
 			type = "group",
-			order = 6,
+			order = 7,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -491,7 +508,7 @@ gUF.options = {
 		player = {
 			name = L["Player"],
 			type = "group",
-			order = 7,
+			order = 8,
 			childGroups = "tab",
 			args = {
 				FrameAttributes = {
@@ -793,7 +810,7 @@ gUF.options = {
 		pet = {
 			name = L["Player's Pet"],
 			type = "group",
-			order = 8,
+			order = 9,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -803,7 +820,7 @@ gUF.options = {
 			--name = L["Target of Player's Pet"],
 			name = "Player's Pet Target",
 			type = "group",
-			order = 9,
+			order = 10,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -812,7 +829,7 @@ gUF.options = {
 		target = {
 			name = L["Target"],
 			type = "group",
-			order = 10,
+			order = 11,
 			childGroups = "tab",
 			args = {
 				FrameAttributes = {
@@ -1114,7 +1131,7 @@ gUF.options = {
 		targettarget = {
 			name = L["Target's Target"],
 			type = "group",
-			order = 11,
+			order = 12,
 			childGroups = "tab",
 			args = {
 				--more options go here
@@ -1124,7 +1141,7 @@ gUF.options = {
 			--name = L["Target of Target's Target"],
 			name = "Target's Target Target",
 			type = "group",
-			order = 12,
+			order = 13,
 			childGroups = "tab",
 			args = {
 				--more options go here
