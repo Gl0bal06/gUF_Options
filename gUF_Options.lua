@@ -1,9 +1,6 @@
 local L = LibStub("AceLocale-3.0"):GetLocale("gUF", true)
 local gUF = LibStub("AceAddon-3.0"):GetAddon("gUF")
 
---LibStub("AceConfig-3.0"):RegisterOptionsTable("gUF", gUF.options)	-- Initialize AceConfig-3.0
---local LSM
-
 local anchorPoints = {
 	[1] = L["Bottom Left"],
 	[2] = L["Bottom Right"],
