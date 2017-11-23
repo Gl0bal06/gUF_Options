@@ -1,8 +1,9 @@
-## Interface: 70000
+## Interface: 70300
 ## Title: gUF (Options)
-## Author: Global
 ## Notes: Options interface for gUF
+## Author: Global
 ## LoadOnDemand: 1
+## X-Website: https://github.com/Gl0bal06/gUF_Options
 ## Dependencies: gUF
 
 #@no-lib-strip@
