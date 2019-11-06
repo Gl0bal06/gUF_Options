@@ -1,4 +1,4 @@
-## Interface: 80100
+## Interface: 80205
 ## Title: gUF (Options)
 ## Notes: Options interface for gUF
 ## Author: Global
