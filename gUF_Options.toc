@@ -1,4 +1,4 @@
-## Interface: 80205
+## Interface: 80300
 ## Title: gUF (Options)
 ## Notes: Options interface for gUF
 ## Author: Global
@@ -7,7 +7,7 @@
 ## Dependencies: gUF
 
 #@no-lib-strip@
-Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua
 Libs\AceGUI-3.0\AceGUI-3.0.xml
 Libs\AceConfig-3.0\AceConfig-3.0.xml
 
