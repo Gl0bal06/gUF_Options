@@ -1,5 +1,5 @@
-local L = LibStub("AceLocale-3.0"):GetLocale("gUF", true)
 local gUF = LibStub("AceAddon-3.0"):GetAddon("gUF")
+local L = LibStub("AceLocale-3.0"):GetLocale("gUF", true)
 
 local anchorPoints = {
 	[1] = L["Bottom Left"],
